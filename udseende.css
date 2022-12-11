@@ -1,0 +1,69 @@
+body {
+    background-color: #424242;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242424;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #fc0d1d98;
+  } 
+ 
+
+#hvemerjeg {
+    background-color: #7C7C7C;
+    padding: 100px;
+    margin: 10px;
+    width: 500px;
+
+}
+
+#kompetencer {
+    background-color: #7C7C7C;
+    padding: 100px;
+    margin: 10px;
+    width: 500px;
+    float: right;
+
+}  
+#mitarbejde {
+    background-color: #7C7C7C;
+    padding: 100px;
+    margin: 10px;
+    width: 1050px;
+    float: left; 
+
+}
+
+#footer {
+    background-color: #242424;
+    color: white;
+    width: 1920px;
+    height: 50px;
+    position: bottom;
+    overflow: hidden;
+    bottom: 0;
+}
+
