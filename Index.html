@@ -7,81 +7,97 @@
 
 
 <body>
-        <nav class="navigation"> <!--navigations bar i toppen-->
+        <nav class="navigation"> <!--navigations (semantisk tag) bar i toppen-->
             <ul> 
                 <img class="logo" src="logo.png" alt="mit logo">    
                 <li><a class="active" href="#hvemerjeg">Hvem er jeg?</a></li>
-                <li><a href="#minekompetencer">Mine kompetencer</a></li>
+                <li><a href="#kompetencer">Mine kompetencer</a></li>
+                <li><a href="#mitarbejde">Mit arbejde!</a></li>
                 <li><a href="#kontakt">Kontakt mig!</a></li>
-                <li><a href="#arbejde">Mit arbejde!</a></li>
                 <li style="float:right"><a class="active" href="#mere">Mere</a></li>
               </ul>
         </nav>
+
         <section>
-            <img class="logo1" src="Andet logo.png" alt="logo">
+            <img class="forside" src="forside1.png" alt="logo">
         </section>
 
-        <section class="hvemerjeg">
+        <section id="hvemerjeg"> <!--En section (semantisk tag) om hvem jeg er-->
+          <div class="boks1">
             <h1 class="overskrift1">Hvem er jeg?</h1>
-            <img class="billede" src="90293435_193124011975984_5702798451109003264_n.jpg" alt="friends">
-            <p class="infoommig">Hey! Mit navn er henning Larsen og jeg er en ung kvinde på 22 år</p>
+            <img class="detmig" src="detmig.png" alt="mig">
+            <p class="infomig">Hey! Mit navn er Luana Larsen! Jeg er 22 år gammel og fra Odense af.
+              En edgy og simpel person med et twist af sjov. I min daglig dag studerer jeg til multimediedesign 
+              på UCL Seebladsgade og i fritiden bruges der tid i fitness. 
+              Tegne og design har lige siden barndom op til nu, fyldt en stor del af mit liv. Da jeg altid har
+              haft en kæmpe ambition for dette har jeg derfor valgt, at gøre brug af mine evner og hjælpe firmaer
+              som leder efter et logo eller design i en bestemt stil. Så kontakt mig gerne hvis du er en af dem!
+            </p>
+          </div>
         </section>
         
-        <section class="kompetencer">
-            <h1 class="overskrift2">Mine kompetencer!</h1>
-            <img class="billede1" src="90293435_193124011975984_5702798451109003264_n.jpg" alt="friends">
-            <p class="infoomkompetencer">rjoeijrwoejr</p>
+        <section id="kompetencer">
+          <div class="boks2">
+            <h2 class="overskrift2">Mine kompetencer!</h2>
+            <img class="programmerne" src="kompetencer.png" alt="mig">
+            <p class="infoomkompetencer">Jeg har erfaring inde for disse Adobe programmer</p>
+          </div>
         </section>
 
-        <section class="mitarbejde"> <!--Gallery med billeder af mit arbejde: Hjælp fra W3Schools--> 
-              <article class="gallery">
+
+        <section id="mitarbejde"> <!--Gallery med billeder af mit arbejde: Hjælp fra W3Schools--> 
+          <div class="boks3">
+              <div class="gallery">
                 <a href="odensemetalfest.png">
-                  <img src="odensemetalfest.png" alt="odensemetalfest">
+                  <img src="odensemetalfest.png" alt="logo af odensemetalfest">
                 </a>
                 <article class="desc">Add a description of the image here</article>
-              </article>
+              </div>
               
-              <article class="gallery">
+              <div class="gallery">
                 <a href="perfection.png">
-                  <img src="perfection.png" alt="perfection">
+                  <img src="perfection.png" alt="logo af perfection">
                 </a>
                 <article class="desc">Add a description of the image here</article>
-              </article>
+              </div>
 
-              <article class="gallery">
-                <a href="billibbilly.png">
-                  <img src="billibbilly.png" alt="billigbilly">
+              <div class="gallery">
+                <a href="billigbilly.png">
+                  <img src="billigbilly.png" alt="logo af billigbilly">
                 </a>
                 <article class="desc">Add a description of the image here</article>
-              </article>
+              </div>
 
-              <article class="gallery">
+              <div class="gallery">
                 <a href="karakterdesign.jpg">
                   <img src="karakterdesign.jpg" alt="karakterdesign">
                 </a>
                 <article class="desc">Karakterdesign!</article>
-              </article>
+              </div>
 
-              <article class="gallery">
+              <div class="gallery">
                 <a href="rekreation.jpg">
                   <img src="rekreation.jpg" alt="rekreation">
                 </a>
                 <article class="desc">Få krearet karaktere!</article>
-              </article>
+              </div>
 
 
-              <article class="gallery">
+              <div class="gallery">
                 <a href="Mit projekt.png">
                   <img src="Mit projekt.png" alt="tattoos">
                 </a>
                 <article class="desc">Tattoo designs!</article>
-              </article>
+              </div>
+          </div>
         </section>
 
        
 </body>
 
 <footer class="footer">
-    Kontakt mig
+    <p>Kontakt mig!</p>
+    <p>Email:</p>
+    <p>Nummer:</p>
 </footer>
 </html>

@@ -1,9 +1,13 @@
 
-@media  screen and (min-width:600px) {
+@media  screen and (min-width:400px) {
     body {
         background-color: #424242;
     }
-    
+
+    html{
+        scroll-behavior: smooth;
+    }
+
     .logo {
         float: left;
         width: 100px;
@@ -19,7 +23,6 @@
         position: sticky;
         top: 0;
         width: 100%;
-        
       }
       
       li {
@@ -39,89 +42,86 @@
         background-color: #fc0d1d98;
       } 
      
-    .logo1{
+    .forside{
         width: 100%;
         height: 400px;
-    }
-    
-    .hvemerjeg {
-        background-color: #7C7C7C;
-        padding: 0px;
-        margin: 10px;
-        width: 50%;
-        height: 300px;
-        position: left;
-        font-family: Arial, Helvetica, sans-serif;
     }
     
     .detmig{
         width: 200px;
         height: 200px;
+        margin-left: 20px;
         float: left;
-        margin: 5px;
-
-    }
-    .overskrift1{
-        color: white;
-        font-size: 30px;
-        align-items: center;
     }
 
-    .infoommig{
-        align-items: left;
+    .programmerne{
+        width: 300px;
+        height: 200px;
+        margin-right: 10px;
+        float: right;
     }
 
-    
-    .kompetencer {
+    .boks1 {
         background-color: #7C7C7C;
         padding: 0px;
-        margin: 10px;
-        width: 50%;
+        width: 80%;
+        height: 300px;
+        position: left;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;  
+    }    
+
+    .boks2 {
+        background-color: #7C7C7C;
+        width: 80%;
         height: 300px;
         float: right;
         font-family: Arial, Helvetica, sans-serif;
         text-align: right;
-    
+        margin-top: 100px;
     }  
 
-    .infoomkompetencer{
-        float: left;
-    }
-
-    .detogsåmig{
-        width: 200px;
-        height: 200px;
-        float: right;
-        margin: 5px;
-
-    }
-    .overskrift2{
-        color: white;
-        font-size: 30px;
-        
-    }
-
-    .billede{
-        width: 200px;
-        height: 200px;
-        float: left;
-
-    }
-
-    .billede1{
-        width: 200px;
-        height: 200px;
-    }
-
-    .mitarbejde {
+    .boks3 {
         background-color: #7C7C7C;
         padding: 100px;
-        margin: 10px;
         width: auto;
         float: left;
         font-family: Arial, Helvetica, sans-serif; 
+        margin-top: 100px;
     }
-    
+
+    .infoomkompetencer{
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .infomig{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+
+    .overskrift1{
+        color: white;
+        font-size: 30px;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .overskrift2{
+        color: white;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .overskrift3{
+        color: white;
+        font-size: 30px;
+        float: center;
+    }
+
     .gallery {
         margin: 10px;
         border: 1px solid #ccc;
@@ -140,7 +140,6 @@
     .gallery img {
         width: 300px;
         height: 400px;
-
     }
       
     article.desc {
@@ -151,12 +150,12 @@
     .footer {
         background-color: #242424;
         color: white;
-        width: 100%;
-        height: 50px;
         position: bottom;
         overflow: hidden;
-        bottom: 0;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         padding: 10px;
+        bottom: 0px;
+        height:150px;
+        width: 100%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }    
 }
