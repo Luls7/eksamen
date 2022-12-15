@@ -57,8 +57,8 @@
     .programmerne{
         width: 300px;
         height: 200px;
-        margin-right: 10px;
-        float: right;
+        float: left;
+        margin-bottom: 20px;
     }
 
     .boks1 {
@@ -77,29 +77,30 @@
         height: 300px;
         float: right;
         font-family: Arial, Helvetica, sans-serif;
-        text-align: right;
         margin-top: 100px;
     }  
 
     .boks3 {
         background-color: #7C7C7C;
-        padding: 100px;
+        padding: auto;
         width: auto;
         float: left;
         font-family: Arial, Helvetica, sans-serif; 
         margin-top: 100px;
     }
 
-    .infoomkompetencer{
-        float: left;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-    }
-
     .infomig{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         margin-left: 10px;
+        margin-top: 80px;
+    }
+
+    .infokompetencer{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 20px;
         margin-top: 80px;
     }
 
@@ -113,17 +114,18 @@
     .overskrift2{
         color: white;
         font-size: 30px;
-        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .overskrift3{
         color: white;
-        font-size: 30px;
-        float: center;
+        font-size: 50px;
+        text-align: center;
     }
 
     .gallery {
-        margin: 10px;
+        margin-left: 80px;
+        margin-bottom: 10px;
         border: 1px solid #ccc;
         float: left;
         width: 300px;
@@ -157,5 +159,22 @@
         height:150px;
         width: 100%;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }    
+    }  
+    .footer:hover {
+        border: 1px #242424;
+    }
+
+    .help1:hover {
+        background-color: #fc0d1d98;
+        width: 220px;
+    }
+    .help2:hover {
+        background-color: #fc0d1d98;
+        width: 155px;
+    }
+    .finddmig{
+        float: right;
+        width: 100px;
+        height: 50px;
+    }
 }
